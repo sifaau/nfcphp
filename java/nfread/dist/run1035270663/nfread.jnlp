@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="nfread.jnlp">
+  <information>
+    <title>nfread</title>
+    <vendor>roy's</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\datafx-core-1.0.jar" size="110552" download="eager" />
+    <jar href="lib\datafx-core-8.0b3-javadoc.jar" size="407084" download="eager" />
+    <jar href="lib\datafx-core-8.0b3-sources.jar" size="82430" download="eager" />
+    <jar href="lib\datafx-core-8.0b3.jar" size="103887" download="eager" />
+    <jar href="lib\datafx-datareader-8.0b2-sources.jar" size="34080" download="eager" />
+    <jar href="lib\datafx-datareader-8.0b2.jar" size="36187" download="eager" />
+    <jar href="nfread.jar" size="5595" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="nfread" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="nfread.Nfread"  name="nfread" />
+  <update check="always"/>
+</jnlp>
